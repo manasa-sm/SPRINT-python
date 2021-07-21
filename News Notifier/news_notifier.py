@@ -26,7 +26,7 @@ def News():
     choice=random.randint(0, len(results))
     notification.notify(message=results[choice], timeout=10)
 	
-schedule.every().second.do(News)
+schedule.every().hour.do(News)
 
 while True:
     schedule.run_pending()
