@@ -1,7 +1,7 @@
 from playsound import playsound
 from gtts import gTTS
 
-mytext = 'Hello!! Welcome to Blue Learn Open Sauce'
+mytext=input("Enter Text : ")
 language = 'en'
 speech = gTTS(text=mytext, lang=language, slow=False)
 speech.save("hello.mp3")
