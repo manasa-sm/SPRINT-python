@@ -10,7 +10,7 @@ discord, random, dotenv, os
   <li>$kick username#1235 reason</li>
  <li>$ban username#1235 reason</li>
  <li>$warn username#1235 reason</li>
- <li>`$unban username#1235`</li>
+ <li>$unban username#1235</li>
 </ul>
 <p>&nbsp;</p>
 Giving a reason for kick, ban and warn is optional 
