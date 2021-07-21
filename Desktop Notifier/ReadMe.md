@@ -4,5 +4,4 @@
 plyer
 
 ## Output
-
-![image](https://user-images.githubusercontent.com/54235627/126469966-d98a0edd-3fed-45bf-b425-dd60e5993789.png)
+The screenshot shows the notification every second, but I have changed it to hour in the actual code to avoid time loss

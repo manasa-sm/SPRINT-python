@@ -1,8 +1,11 @@
+import schedule
 import time
 from plyer import notification
-notification.notify(
-        title="BlueLearn Python Sprint",
-        message="This is a Desktop Notification",
-        timeout=2
-    )
-time.sleep(7)
+def job():
+    notification.notify(title="Drink Water", message="Time to drink water and stay hydrated", timeout=10)
+
+schedule.every().hour.do(job)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
