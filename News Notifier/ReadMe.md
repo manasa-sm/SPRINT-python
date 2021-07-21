@@ -1,7 +1,7 @@
 # Create a News Notifier #2
 Sends news notifications every hour
 &nbsp;
-## Pyhton modules used
+## Python modules used
 dotenv, schedule, plyer, os, requests, random, time
 ## API Used
 news-api
