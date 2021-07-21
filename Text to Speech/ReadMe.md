@@ -1,8 +1,8 @@
-##Text to Speech
+# Text to Speech
 &nbsp;
 ## Pyhton modules used
->>gTTS&nbsp;
->>playsound
+gTTS&nbsp;
+playsound
 
 ## Output
 
